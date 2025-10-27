@@ -1,0 +1,47 @@
+.star-icon {
+  position: relative;
+}
+
+.star-icon::before {
+  content: "";
+  position: absolute;
+  right: 180%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+
+.star-icon::after {
+  content: "";
+  position: absolute;
+  left: 180%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+
+/* Tablet screens */
+@media (max-width: 991px) {
+  .w-75 {
+    width: 90% !important;
+  }
+  .skills {
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
+
+/* Mobile screens*/
+@media (max-width: 767px) {
+  .w-75 {
+    width: 100% !important;
+  }
+  .skills {
+    flex-direction: column;
+    width: 100% !important;
+  }
+}

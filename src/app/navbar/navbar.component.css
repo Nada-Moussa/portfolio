@@ -1,0 +1,33 @@
+.active {
+    background-color: rgb(var(--bs-success-rgb));
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+  transition: all 0.3s ease; 
+  padding: 1.5rem 1rem;      
+}
+
+.navbar-shrink {
+  padding: 0.5rem 1rem;      
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); 
+}
+
+.nav-link.active {
+  padding: 8px;
+}
+
+
+/* Tablet screens */
+@media (max-width: 991px) {
+
+}
+
+/* Mobile screens*/
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 0px 16px !important; 
+    margin: 0px !important; 
+  }
+}

@@ -1,0 +1,11 @@
+/* Tablet screens */
+@media (max-width: 991px) {
+
+}
+
+/* Mobile screens*/
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+    }
+}
