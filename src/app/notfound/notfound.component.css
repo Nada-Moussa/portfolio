@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  overflow: hidden;
+}
+
+.notfound {
+    width: 65%;
+}
+
+/* Tablet screens */
+@media (max-width: 991px) {
+  .notfound {
+    width: 100% !important;
+  }
+}
+
+/* Mobile screens*/
+@media (max-width: 767px) {
+  .notfound {
+    width: 100% !important;
+  }
+
+  button {
+    width: 40%;
+  }
+}

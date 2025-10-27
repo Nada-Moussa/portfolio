@@ -29,6 +29,13 @@ p {
   --bs-btn-border-color: rgb(var(--bs-success-rgb));
 }
 
+.btn-primary {
+  --bs-btn-bg: rgb(var(--bs-primary-rgb));
+  --bs-btn-border-color: rgb(var(--bs-primary-rgb));
+  --bs-btn-hover-bg: rgb(var(--bs-secondary-rgb));
+  --bs-btn-hover-border-color: rgb(var(--bs-secondary-rgb));
+}
+
 .form-control {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;

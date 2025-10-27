@@ -18,6 +18,10 @@
   padding: 8px;
 }
 
+.navbar-toggler{
+  margin-bottom: 8px;
+}
+
 
 /* Tablet screens */
 @media (max-width: 991px) {

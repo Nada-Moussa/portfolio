@@ -2,11 +2,13 @@ import { Component, TemplateRef, ViewChild } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { Project } from '../interfaces/project';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [NgbModalModule],
+  imports: [NgbModalModule, NavbarComponent, FooterComponent],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })
